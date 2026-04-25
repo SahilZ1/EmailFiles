@@ -1,0 +1,25 @@
+{ 
+    "Type": "Safe",
+    "Difficulty": 2,
+    "Subject": "Your payslip is now available", 
+    "Recipient Address": 1, 
+    "Sender Address": "payroll@company.com",
+    "CC": [], 
+    "Body": "Hi,\n\nYour payslip for this period is now available in the employee portal.\n\nRegards,\nPayroll Team",
+    "Tags": ["Work"],
+
+    "Links": [],
+
+    "Attachments": [],
+
+    "Indicators": [
+        "Expected communication",
+        "No suspicious links",
+        "Professional tone"
+    ],
+
+    "Explanation": "This is a standard payroll notification and does not request sensitive information.",
+    "CorrectAction": "Dismiss",
+    "Reward": 2,
+    "Penalty": 1
+}

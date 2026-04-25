@@ -1,0 +1,32 @@
+{ 
+    "Type": "Phish",
+    "Difficulty": 3,
+    "Subject": "Important: Suspicious login detected", 
+    "Recipient Address": 2, 
+    "Sender Address": "security@commbank-alerts.net",
+    "CC": [], 
+    "Body": "Dear Customer,\n\nWe detected a suspicious login attempt on your account. Please verify your identity immediately to prevent account suspension.\n\n[1]\n\nCommonwealth Bank",
+    "Tags": ["Banking", "Urgent"],
+
+    "Links": [
+        {
+            "Link Number": 1,
+            "Text": "Secure Your Account",
+            "URL": "http://commbank-secure-login.fake",
+            "IsMalicious": true
+        }
+    ],
+
+    "Attachments": [],
+
+    "Indicators": [
+        "Fake domain",
+        "Generic greeting",
+        "Urgency and fear tactics"
+    ],
+
+    "Explanation": "The bank would use official domains. This email pressures immediate action and uses a fake login link.",
+    "CorrectAction": "Report",
+    "Reward": 3,
+    "Penalty": -3
+}

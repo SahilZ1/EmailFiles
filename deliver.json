@@ -1,0 +1,32 @@
+{ 
+    "Type": "Phish",
+    "Difficulty": 2,
+    "Subject": "Missed delivery attempt – action required", 
+    "Recipient Address": 2, 
+    "Sender Address": "delivery@auspost-track.net",
+    "CC": [], 
+    "Body": "Hello,\n\nWe attempted to deliver your package but failed due to incorrect address details. Please update your information to reschedule delivery.\n\n[1]\n\nAustralia Post",
+    "Tags": ["Delivery", "Urgent"],
+
+    "Links": [
+        {
+            "Link Number": 1,
+            "Text": "Update Delivery Details",
+            "URL": "http://auspost-redelivery-fake.com",
+            "IsMalicious": true
+        }
+    ],
+
+    "Attachments": [],
+
+    "Indicators": [
+        "Fake domain not auspost.com.au",
+        "Unexpected delivery notice",
+        "Urgency to update details"
+    ],
+
+    "Explanation": "Australia Post uses official domains. This link redirects to a fake site designed to steal personal information.",
+    "CorrectAction": "Report",
+    "Reward": 2,
+    "Penalty": -4
+}

@@ -1,0 +1,25 @@
+{ 
+    "Type": "Safe",
+    "Difficulty": 1,
+    "Subject": "You're invited: Tech Networking Event", 
+    "Recipient Address": 2, 
+    "Sender Address": "events@meetup.com",
+    "CC": [], 
+    "Body": "Hi,\n\nYou are invited to attend our upcoming tech networking event this Friday.\n\nSee you there!",
+    "Tags": ["Event"],
+
+    "Links": [],
+
+    "Attachments": [],
+
+    "Indicators": [
+        "Recognised platform",
+        "No urgency",
+        "General invitation"
+    ],
+
+    "Explanation": "This is a typical event invite and does not contain malicious elements.",
+    "CorrectAction": "Dismiss",
+    "Reward": 1,
+    "Penalty": 1
+}

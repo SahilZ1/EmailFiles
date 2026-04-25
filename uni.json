@@ -1,0 +1,25 @@
+{ 
+    "Type": "Safe",
+    "Difficulty": 2,
+    "Subject": "Library overdue notice", 
+    "Recipient Address": 1, 
+    "Sender Address": "library@uts.edu.au",
+    "CC": [], 
+    "Body": "Hi Sahil,\n\nOur records show that you have an overdue item. Please return it within 3 days to avoid late fees.\n\nRegards,\nUTS Library",
+    "Tags": ["University"],
+
+    "Links": [],
+
+    "Attachments": [],
+
+    "Indicators": [
+        "Official university domain",
+        "No suspicious links",
+        "Personalised greeting"
+    ],
+
+    "Explanation": "The email comes from a legitimate UTS domain and does not request sensitive information.",
+    "CorrectAction": "Dismiss",
+    "Reward": 2,
+    "Penalty": 1
+}
